@@ -14,11 +14,11 @@
 
 ---
 
-# Обновлено: 2025-10-02 00:44 UTC
+# Обновлено: 2025-10-03 00:44 UTC
 
 ### 1. основной файл epg.one EPG с прямоугольными пиконами с прозрачным фоном
 
-**Размер:** 40.81 MB
+**Размер:** 39.08 MB
 
 **Основная ссылка (GitHub Raw):**
 `https://github.com/Lorax121/everyday_epg_update/raw/main/data/epg2.xml.gz`
@@ -30,7 +30,7 @@
 ---
 ### 2. основной файл epg.one EPG с квадратными пиконами с темным фоном
 
-**Размер:** 40.81 MB
+**Размер:** 39.08 MB
 
 **Основная ссылка (GitHub Raw):**
 `https://github.com/Lorax121/everyday_epg_update/raw/main/data/epg.xml.gz`
@@ -42,7 +42,7 @@
 ---
 ### 3. облегченный файл epg.one EPG с квадратными иконками с темным фоном
 
-**Размер:** 9.09 MB
+**Размер:** 9.05 MB
 
 **Основная ссылка (GitHub Raw):**
 `https://github.com/Lorax121/everyday_epg_update/raw/main/data/epg.xml`
@@ -55,7 +55,7 @@
 ---
 ### 4. укороченный файл iptvx.one (архив на 7 дней / описания)
 
-**Размер:** 70.29 MB
+**Размер:** 65.03 MB
 
 **Основная ссылка (GitHub Raw):**
 `https://github.com/Lorax121/everyday_epg_update/raw/main/data/EPG7.xml.gz`
@@ -67,7 +67,7 @@
 ---
 ### 5. облегченный файл iptvx.one (архив на 14 дней / без описаний)
 
-**Размер:** 17.52 MB
+**Размер:** 16.22 MB
 
 **Основная ссылка (GitHub Raw):**
 `https://github.com/Lorax121/everyday_epg_update/raw/main/data/EPG_LITE.xml.gz`
