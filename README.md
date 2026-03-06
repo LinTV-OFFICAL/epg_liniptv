@@ -14,66 +14,66 @@
 
 ---
 
-# Обновлено: 2026-03-05 01:07 UTC
+# Обновлено: 2026-03-06 02:35 UTC
 
 ### 1. основной файл epg.one EPG с прямоугольными пиконами с прозрачным фоном
 
-**Размер:** 44.26 MB
+**Размер:** 43.69 MB
 
 **Основная ссылка (GitHub Raw):**
-`https://github.com/Lorax121/everyday_epg_update/raw/main/data/epg2.xml.gz`
+`https://github.com/LinTV-OFFICAL/everyday_epg_update/raw/main/data/epg2.xml.gz`
 
 > **Альтернативные ссылки:**
 >
-> - *Короткая (некоторые плееры не поддерживают):* `https://is.gd/MC95eU`
+> - *Короткая (некоторые плееры не поддерживают):* `https://is.gd/zVhTph`
 
 ---
 ### 2. основной файл epg.one EPG с квадратными пиконами с темным фоном
 
-**Размер:** 44.26 MB
+**Размер:** 43.69 MB
 
 **Основная ссылка (GitHub Raw):**
-`https://github.com/Lorax121/everyday_epg_update/raw/main/data/epg.xml.gz`
+`https://github.com/LinTV-OFFICAL/everyday_epg_update/raw/main/data/epg.xml.gz`
 
 > **Альтернативные ссылки:**
 >
-> - *Короткая (некоторые плееры не поддерживают):* `https://is.gd/dEf55Q`
+> - *Короткая (некоторые плееры не поддерживают):* `https://is.gd/9Vud2L`
 
 ---
 ### 3. облегченный файл epg.one EPG с квадратными иконками с темным фоном
 
-**Размер:** 10.49 MB
+**Размер:** 10.39 MB
 
 **Основная ссылка (GitHub Raw):**
-`https://github.com/Lorax121/everyday_epg_update/raw/main/data/epg.xml`
+`https://github.com/LinTV-OFFICAL/everyday_epg_update/raw/main/data/epg.xml`
 
 > **Альтернативные ссылки:**
 >
-> - *Короткая (некоторые плееры не поддерживают):* `https://is.gd/DJDSZy`
-> - *CDN (jsDelivr):* `https://cdn.jsdelivr.net/gh/Lorax121/everyday_epg_update@main/data/epg.xml` (Короткая (некоторые плееры не поддерживают): `https://is.gd/G6TrqM`)
+> - *Короткая (некоторые плееры не поддерживают):* `https://is.gd/ms4YHC`
+> - *CDN (jsDelivr):* `https://cdn.jsdelivr.net/gh/LinTV-OFFICAL/everyday_epg_update@main/data/epg.xml` (Короткая (некоторые плееры не поддерживают): `https://is.gd/QM3e36`)
 
 ---
 ### 4. укороченный файл iptvx.one (архив на 7 дней / описания)
 
-**Размер:** 81.13 MB
+**Размер:** 76.1 MB
 
 **Основная ссылка (GitHub Raw):**
-`https://github.com/Lorax121/everyday_epg_update/raw/main/data/EPG7.xml.gz`
+`https://github.com/LinTV-OFFICAL/everyday_epg_update/raw/main/data/EPG7.xml.gz`
 
 > **Альтернативные ссылки:**
 >
-> - *Короткая (некоторые плееры не поддерживают):* `https://is.gd/K7V542`
+> - *Короткая (некоторые плееры не поддерживают):* `https://is.gd/1bxMwR`
 
 ---
 ### 5. облегченный файл iptvx.one (архив на 14 дней / без описаний)
 
-**Размер:** 16.31 MB
+**Размер:** 15.26 MB
 
 **Основная ссылка (GitHub Raw):**
-`https://github.com/Lorax121/everyday_epg_update/raw/main/data/EPG_LITE.xml.gz`
+`https://github.com/LinTV-OFFICAL/everyday_epg_update/raw/main/data/EPG_LITE.xml.gz`
 
 > **Альтернативные ссылки:**
 >
-> - *Короткая (некоторые плееры не поддерживают):* `https://is.gd/wjDzEO`
+> - *Короткая (некоторые плееры не поддерживают):* `https://is.gd/aGD5eK`
 
 ---
