@@ -18,6 +18,7 @@ MAX_FILE_SIZE_MB = 95
 JSDELIVR_SIZE_LIMIT_MB = 15
 
 RAW_BASE_URL = "https://github.com/{owner}/{repo}/raw/main/data/{filename}"
+LINIPTV_BASE_URL = "https://epg.liniptv.2bd.net/data/{filename}"
 JSDELIVR_BASE_URL = "https://cdn.jsdelivr.net/gh/{owner}/{repo}@main/data/{filename}"
 
 def read_sources_and_notes():
@@ -130,6 +131,10 @@ def update_readme(results, notes):
             lines.append(f"`{r['raw_url']}`")
             lines.append("")
 
+            lines.append(f"**Основная ссылка (epg.liniptv.2bd.net):**")
+            lines.append(f"`{r['liniptv_url']}`")
+            lines.append("")
+
             lines.append("> **Альтернативные ссылки:**")
             lines.append(">") 
             lines.append(f"> - *Короткая (некоторые плееры не поддерживают):* `{r['short_raw_url']}`")
@@ -187,6 +192,10 @@ def main():
         raw_url = RAW_BASE_URL.format(owner=owner, repo=repo_name, filename=final_name)
         res['raw_url'] = raw_url
         res['short_raw_url'] = shorten_url_safely(raw_url)
+
+        liniptv_url = LINIPTV_BASE_URL.format(filename=final_name)
+        res['liniptv_url'] = liniptv_url
+        res['short_liniptv_url'] = shorten_url_safely(liniptv_url)
         
         if res['size_mb'] < JSDELIVR_SIZE_LIMIT_MB:
             jsdelivr_url = JSDELIVR_BASE_URL.format(owner=owner, repo=repo_name, filename=final_name)
