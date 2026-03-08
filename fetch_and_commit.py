@@ -13,7 +13,7 @@ DATA_DIR = Path('data')
 README_FILE = 'README.md'
 MAX_WORKERS = 8
 CHUNK_SIZE = 16 * 1024
-MAX_FILE_SIZE_MB = 95
+MAX_FILE_SIZE_MB = 99.9
 JSDELIVR_SIZE_LIMIT_MB = 15
 
 RAW_BASE_URL = "https://github.com/{owner}/{repo}/raw/main/data/{filename}"
