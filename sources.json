@@ -1,24 +1,68 @@
 {
   "sources": [
     {
-      "url": "http://epg.one/epg2.xml.gz",
-      "desc": "основной файл epg.one EPG с прямоугольными пиконами с прозрачным фоном"
-    },
-    {
-      "url": "http://epg.one/epg.xml.gz",
-      "desc": "основной файл epg.one EPG с квадратными пиконами с темным фоном"
-    },
-    {
-      "url": "http://epg.one/epg.xml",
-      "desc": "облегченный файл epg.one EPG с квадратными иконками с темным фоном"
+      "url": "https://iptvx.one/EPG",
+      "desc": "IPTVX.ONE | полный (архив на 14 дней)"
     },
     {
       "url": "https://iptvx.one/EPG7",
-      "desc": "укороченный файл iptvx.one (архив на 7 дней / описания)"
+      "desc": "IPTVX.ONE | полный (архив на 7 дней)"
     },
     {
       "url": "https://iptvx.one/EPG_LITE",
-      "desc": "облегченный файл iptvx.one (архив на 14 дней / без описаний)"
+      "desc": "IPTVX.ONE | без описаний"
+    },
+    {
+      "url": "https://iptvx.one/EPG_NOARCH",
+      "desc": "IPTVX.ONE | только на текущую неделю"
+    },
+    {
+      "url": "https://iptvx.one/EPG3",
+      "desc": "IPTVX.ONE | для тех, у кого не отображается спецсимвол ⋗ - в этом файле он заменен на LIVE! (архив - 3 дня и программа на 3 дня вперёд)"
+    },
+    {
+      "url": "https://iptvx.one/epg/epg2d.xmltv",
+      "desc": "IPTVX.ONE | несжатый файл только на сегодня и завтра"
+    },
+    {
+      "url": "https://teleguide.info/download/new3/xmltv.xml.gz",
+      "desc": "TELEGUIDE.INFO | на текущую неделю"
+    },
+    {
+      "url": "https://teleguide.info/download/old/xmltv.xml.gz",
+      "desc": "TELEGUIDE.INFO | на предыдущую неделю"
+    },
+    {
+      "url": "http://epg.one/epg2.xml.gz",
+      "desc": "EPG.ONE | EPG с прямоугольными пиконами с прозрачным фоном (все каналы)"
+    },
+    {
+      "url": "http://epg.one/epg.xml.gz",
+      "desc": "EPG.ONE | EPG с квадратными пиконами с темным фоном (все каналы)"
+    },
+    {
+      "url": "http://epg.one/pp.xml.gz",
+      "desc": "EPG.ONE | спецсборка EPG для Perfect Player и ProgTV (все каналы)"
+    },
+    {
+      "url": "http://epg.one/epg2.xml",
+      "desc": "EPG.ONE | упрощенный EPG с прямоугольными иконками с прозрачным фоном (все каналы)"
+    },
+    {
+      "url": "http://epg.one/epg.xml",
+      "desc": "EPG.ONE | упрощенный EPG с квадратными иконками с темным фоном (все каналы)"
+    },
+    {
+      "url": "http://epg.one/ru2.xml.gz",
+      "desc": "EPG.ONE | упрощенный EPG с квадратными иконками с темным фоном (русские каналы)"
+    },
+    {
+      "url": "http://epg.one/ru.xml.gz",
+      "desc": "EPG.ONE | EPG с квадратными пиконами с темным фоном (русские каналы)"
+    },
+    {
+      "url": "http://epg.one/rupp.xml.gz",
+      "desc": "EPG.ONE | спецсборка EPG для Perfect Player и ProgTV (русские каналы)"
     }
 
   ],
