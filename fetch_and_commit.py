@@ -14,7 +14,7 @@ README_FILE = 'README.md'
 MAX_WORKERS = 10
 CHUNK_SIZE = 16 * 1024
 MAX_FILE_SIZE_MB = 100
-JSDELIVR_SIZE_LIMIT_MB = 50
+JSDELIVR_SIZE_LIMIT_MB = 20
 
 RAW_BASE_URL = "https://github.com/{owner}/{repo}/raw/main/data/{filename}"
 LINIPTV_BASE_URL = "https://epg.liniptv.2bd.net/data/{filename}"
