@@ -14,7 +14,7 @@
 
 ---
 
-# Обновлено: 2026-03-08 20:48 UTC
+# Обновлено: 2026-03-08 20:52 UTC
 
 ### 1. IPTVX.ONE | полный (архив на 14 дней)
 
@@ -95,9 +95,17 @@
 ---
 ### 6. IPTVX.ONE | несжатый файл только на сегодня и завтра
 
-**Статус:** 🔴 Ошибка
-**Источник:** `https://iptvx.one/epg/epg2d.xmltv`
-**Причина:** Файл слишком большой (95.25 MB > 95 MB). Пропускаем.
+**Размер:** 95.25 MB
+
+**Основная ссылка (GitHub Raw):**
+`https://github.com/LinTV-OFFICAL/epg_liniptv/raw/main/data/epg2d.xml`
+
+**Основная ссылка (epg.liniptv.2bd.net):**
+`https://epg.liniptv.2bd.net/data/epg2d.xml`
+
+> **Альтернативные ссылки:**
+>
+> - *Короткая (некоторые плееры не поддерживают):* `https://is.gd/lWiVm0`
 
 ---
 ### 7. TELEGUIDE.INFO | на текущую неделю
@@ -118,18 +126,9 @@
 ---
 ### 8. TELEGUIDE.INFO | на предыдущую неделю
 
-**Размер:** 4.53 MB
-
-**Основная ссылка (GitHub Raw):**
-`https://github.com/LinTV-OFFICAL/epg_liniptv/raw/main/data/xmltv.xml-1.gz`
-
-**Основная ссылка (epg.liniptv.2bd.net):**
-`https://epg.liniptv.2bd.net/data/xmltv.xml-1.gz`
-
-> **Альтернативные ссылки:**
->
-> - *Короткая (некоторые плееры не поддерживают):* `https://is.gd/WQpKWj`
-> - *CDN (jsDelivr):* `https://cdn.jsdelivr.net/gh/LinTV-OFFICAL/epg_liniptv@main/data/xmltv.xml-1.gz` (Короткая (некоторые плееры не поддерживают): `https://is.gd/kweQAl`)
+**Статус:** 🔴 Ошибка
+**Источник:** `https://teleguide.info/download/old/xmltv.xml.gz`
+**Причина:** Ошибка загрузки: ('Connection broken: IncompleteRead(34752 bytes read, 4711841 more expected)', IncompleteRead(34752 bytes read, 4711841 more expected))
 
 ---
 ### 9. EPG.ONE | EPG с прямоугольными пиконами с прозрачным фоном (все каналы)
