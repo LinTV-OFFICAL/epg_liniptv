@@ -11,7 +11,7 @@ import gdshortener
 SOURCES_FILE = 'sources.json'
 DATA_DIR = Path('data')
 README_FILE = 'README.md'
-MAX_WORKERS = 8
+MAX_WORKERS = 10
 CHUNK_SIZE = 16 * 1024
 MAX_FILE_SIZE_MB = 99.9
 JSDELIVR_SIZE_LIMIT_MB = 15
