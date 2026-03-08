@@ -14,7 +14,7 @@
 
 ---
 
-# Обновлено: 2026-03-08 20:57 UTC
+# Обновлено: 2026-03-08 21:13 UTC
 
 ### 1. IPTVX.ONE | полный (архив на 14 дней)
 
@@ -126,18 +126,9 @@
 ---
 ### 8. TELEGUIDE.INFO | на предыдущую неделю
 
-**Размер:** 4.53 MB
-
-**Основная ссылка (GitHub Raw):**
-`https://github.com/LinTV-OFFICAL/epg_liniptv/raw/main/data/xmltv.xml-1.gz`
-
-**Основная ссылка (epg.liniptv.2bd.net):**
-`https://epg.liniptv.2bd.net/data/xmltv.xml-1.gz`
-
-> **Альтернативные ссылки:**
->
-> - *Короткая (некоторые плееры не поддерживают):* `https://is.gd/WQpKWj`
-> - *CDN (jsDelivr):* `https://cdn.jsdelivr.net/gh/LinTV-OFFICAL/epg_liniptv@main/data/xmltv.xml-1.gz` (Короткая (некоторые плееры не поддерживают): `https://is.gd/kweQAl`)
+**Статус:** 🔴 Ошибка
+**Источник:** `https://teleguide.info/download/old/xmltv.xml.gz`
+**Причина:** Ошибка загрузки: ('Connection broken: IncompleteRead(34752 bytes read, 4711841 more expected)', IncompleteRead(34752 bytes read, 4711841 more expected))
 
 ---
 ### 9. EPG.ONE | EPG с прямоугольными пиконами с прозрачным фоном (все каналы)
@@ -153,6 +144,7 @@
 > **Альтернативные ссылки:**
 >
 > - *Короткая (некоторые плееры не поддерживают):* `https://is.gd/xNdVfK`
+> - *CDN (jsDelivr):* `https://cdn.jsdelivr.net/gh/LinTV-OFFICAL/epg_liniptv@main/data/epg2.xml.gz` (Короткая (некоторые плееры не поддерживают): `https://is.gd/z5Ilz7`)
 
 ---
 ### 10. EPG.ONE | EPG с квадратными пиконами с темным фоном (все каналы)
@@ -168,6 +160,7 @@
 > **Альтернативные ссылки:**
 >
 > - *Короткая (некоторые плееры не поддерживают):* `https://is.gd/bAmSUT`
+> - *CDN (jsDelivr):* `https://cdn.jsdelivr.net/gh/LinTV-OFFICAL/epg_liniptv@main/data/epg.xml.gz` (Короткая (некоторые плееры не поддерживают): `https://is.gd/sNkvQQ`)
 
 ---
 ### 11. EPG.ONE | спецсборка EPG для Perfect Player и ProgTV (все каналы)
@@ -183,6 +176,7 @@
 > **Альтернативные ссылки:**
 >
 > - *Короткая (некоторые плееры не поддерживают):* `https://is.gd/pZnyMk`
+> - *CDN (jsDelivr):* `https://cdn.jsdelivr.net/gh/LinTV-OFFICAL/epg_liniptv@main/data/pp.xml.gz` (Короткая (некоторые плееры не поддерживают): `https://is.gd/uDmhG8`)
 
 ---
 ### 12. EPG.ONE | упрощенный EPG с прямоугольными иконками с прозрачным фоном (все каналы)
@@ -230,6 +224,7 @@
 > **Альтернативные ссылки:**
 >
 > - *Короткая (некоторые плееры не поддерживают):* `https://is.gd/FiuFzb`
+> - *CDN (jsDelivr):* `https://cdn.jsdelivr.net/gh/LinTV-OFFICAL/epg_liniptv@main/data/ru2.xml.gz` (Короткая (некоторые плееры не поддерживают): `https://is.gd/Mkw50B`)
 
 ---
 ### 15. EPG.ONE | EPG с квадратными пиконами с темным фоном (русские каналы)
@@ -245,6 +240,7 @@
 > **Альтернативные ссылки:**
 >
 > - *Короткая (некоторые плееры не поддерживают):* `https://is.gd/c1XZpW`
+> - *CDN (jsDelivr):* `https://cdn.jsdelivr.net/gh/LinTV-OFFICAL/epg_liniptv@main/data/ru.xml.gz` (Короткая (некоторые плееры не поддерживают): `https://is.gd/hOMwt0`)
 
 ---
 ### 16. EPG.ONE | спецсборка EPG для Perfect Player и ProgTV (русские каналы)
@@ -260,5 +256,6 @@
 > **Альтернативные ссылки:**
 >
 > - *Короткая (некоторые плееры не поддерживают):* `https://is.gd/RQUmyx`
+> - *CDN (jsDelivr):* `https://cdn.jsdelivr.net/gh/LinTV-OFFICAL/epg_liniptv@main/data/rupp.xml.gz` (Короткая (некоторые плееры не поддерживают): `https://is.gd/gQs7jb`)
 
 ---
