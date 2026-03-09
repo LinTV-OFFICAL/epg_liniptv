@@ -104,6 +104,24 @@ def shorten_url_safely(url):
         print(f"Не удалось сократить URL {url}: {e}", file=sys.stderr)
         return "не удалось сократить"
 
+    def shorten_url_safely(self, url):
+        """Short implementation for Clck.ru
+
+        Args:
+            url: the URL you want to shorten
+
+        Returns:
+            A string containing the shortened URL
+
+        Raises:
+            ShorteningErrorException: If the API returns an error as response
+        """
+
+        response = self._get(self.api_url, params={"url": url})
+        if response.ok:
+            return response.text.strip()
+        raise ShorteningErrorException(response.content)     
+
 def update_readme(results, notes):
     utc_now = datetime.now(timezone.utc)
     timestamp = utc_now.strftime('%Y-%m-%d %H:%M %Z')
@@ -195,7 +213,7 @@ def main():
 
         liniptv_url = LINIPTV_BASE_URL.format(filename=final_name)
         res['liniptv_url'] = liniptv_url
-        res['short_liniptv_url'] = shorten_url_safely(liniptv_url)
+        res['short_liniptv_url'] = shorten_url_1(liniptv_url)
         
         if res['size_mb'] < JSDELIVR_SIZE_LIMIT_MB:
             jsdelivr_url = JSDELIVR_BASE_URL.format(owner=owner, repo=repo_name, filename=final_name)
