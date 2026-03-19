@@ -208,8 +208,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()аботу.")
-
-
-if __name__ == '__main__':
     main()
