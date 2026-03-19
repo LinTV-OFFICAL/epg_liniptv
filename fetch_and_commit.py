@@ -11,13 +11,13 @@ import gdshortener
 SOURCES_FILE = 'sources.json'
 DATA_DIR = Path('data')
 README_FILE = 'README.md'
-MAX_WORKERS = 10
+MAX_WORKERS = 8
 CHUNK_SIZE = 16 * 1024
 MAX_FILE_SIZE_MB = 100
 JSDELIVR_SIZE_LIMIT_MB = 20
 
 RAW_BASE_URL = "https://github.com/{owner}/{repo}/raw/main/data/{filename}"
-LINIPTV_BASE_URL = "https://epg.liniptv.2bd.net/data/{filename}"
+LINIPTV_2BDNET_BASE_URL = "https://epg.liniptv.2bd.net/data/{filename}"
 JSDELIVR_BASE_URL = "https://cdn.jsdelivr.net/gh/{owner}/{repo}@main/data/{filename}"
 
 def read_sources_and_notes():
@@ -103,24 +103,6 @@ def shorten_url_safely(url):
         print(f"Не удалось сократить URL {url}: {e}", file=sys.stderr)
         return "не удалось сократить"
 
-    def shorten_url_safely(self, url):
-        """Short implementation for Clck.ru
-
-        Args:
-            url: the URL you want to shorten
-
-        Returns:
-            A string containing the shortened URL
-
-        Raises:
-            ShorteningErrorException: If the API returns an error as response
-        """
-
-        response = self._get(self.api_url, params={"url": url})
-        if response.ok:
-            return response.text.strip()
-        raise ShorteningErrorException(response.content)     
-
 def update_readme(results, notes):
     utc_now = datetime.now(timezone.utc)
     timestamp = utc_now.strftime('%Y-%m-%d %H:%M %Z')
@@ -149,7 +131,7 @@ def update_readme(results, notes):
             lines.append("")
 
             lines.append(f"**Основная ссылка (epg.liniptv.2bd.net):**")
-            lines.append(f"`{r['liniptv_url']}`")
+            lines.append(f"`{r['liniptv_2bdnet_url']}`")
             lines.append("")
 
             lines.append("> **Альтернативные ссылки:**")
@@ -210,9 +192,9 @@ def main():
         res['raw_url'] = raw_url
         res['short_raw_url'] = shorten_url_safely(raw_url)
 
-        liniptv_url = LINIPTV_BASE_URL.format(filename=final_name)
-        res['liniptv_url'] = liniptv_url
-        res['short_liniptv_url'] = shorten_url_1(liniptv_url)
+        liniptv_2bdnet_url = _BASE_URL.format(filename=final_name)
+        res['liniptv_2bd_net_url'] = liniptv_2bd_net_url
+        res['short_liniptv_2bdnet_url'] = shorten_url_safely(liniptv_2bdnet_url)
         
         if res['size_mb'] < JSDELIVR_SIZE_LIMIT_MB:
             jsdelivr_url = JSDELIVR_BASE_URL.format(owner=owner, repo=repo_name, filename=final_name)
@@ -223,6 +205,10 @@ def main():
 
     update_readme(final_results, notes)
     print("Скрипт успешно завершил работу.")
+
+
+if __name__ == '__main__':
+    main()аботу.")
 
 
 if __name__ == '__main__':
