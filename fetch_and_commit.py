@@ -7,7 +7,6 @@ from pathlib import Path
 from urllib.parse import urlparse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import gdshortener
-import pyshorteners
 
 SOURCES_FILE = 'sources.json'
 DATA_DIR = Path('data')
