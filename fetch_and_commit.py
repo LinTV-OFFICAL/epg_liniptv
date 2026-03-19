@@ -18,6 +18,7 @@ JSDELIVR_SIZE_LIMIT_MB = 20
 
 RAW_BASE_URL = "https://github.com/{owner}/{repo}/raw/main/data/{filename}"
 LINIPTV_2BDNET_BASE_URL = "https://epg.liniptv.2bd.net/data/{filename}"
+CLKLI_BASE_URL = "https://clk.li/LinIPTV-{filename}"
 JSDELIVR_BASE_URL = "https://cdn.jsdelivr.net/gh/{owner}/{repo}@main/data/{filename}"
 
 def read_sources_and_notes():
@@ -134,6 +135,11 @@ def update_readme(results, notes):
             lines.append(f"`{r['liniptv_2bdnet_url']}`")
             lines.append("")
 
+            lines.append(f"**Сокращенная ссылка может неработать (clk.li):**")
+            lines.append(f"`{r['clkli_url']}`")
+            lines.append("")
+
+
             lines.append("> **Альтернативные ссылки:**")
             lines.append(">") 
             lines.append(f"> - *Короткая (некоторые плееры не поддерживают):* `{r['short_raw_url']}`")
@@ -193,9 +199,13 @@ def main():
         res['short_raw_url'] = shorten_url_safely(raw_url)
 
         liniptv_2bdnet_url = _BASE_URL.format(filename=final_name)
-        res['liniptv_2bd_net_url'] = liniptv_2bd_net_url
+        res['liniptv_2bdnet_url'] = liniptv_2bdnet_url
         res['short_liniptv_2bdnet_url'] = shorten_url_safely(liniptv_2bdnet_url)
-        
+
+        clkli_url = _BASE_URL.format(filename=final_name)
+        res['clkli_url'] = clkli_url
+        res['short_clkli_url'] = shorten_url_safely(clkli_url)
+               
         if res['size_mb'] < JSDELIVR_SIZE_LIMIT_MB:
             jsdelivr_url = JSDELIVR_BASE_URL.format(owner=owner, repo=repo_name, filename=final_name)
             res['jsdelivr_url'] = jsdelivr_url
