@@ -132,7 +132,7 @@ def update_readme(results, notes):
             lines.append("")
 
             lines.append(f"**Основная ссылка (epg.liniptv.2bd.net):**")
-            lines.append(f"`{r['liniptv_2bdnet_url']}`")
+            lines.append(f"`{r['liniptv_url']}`")
             lines.append("")
 
             lines.append(f"**Сокращенная ссылка может неработать (clk.li):**")
