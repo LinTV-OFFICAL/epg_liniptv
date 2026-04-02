@@ -14,11 +14,11 @@
 
 ---
 
-# Обновлено: 2026-04-01 03:25 UTC
+# Обновлено: 2026-04-02 02:50 UTC
 
 ### 1. IPTVX.ONE | полный (архив на 14 дней)
 
-**Размер:** 86.42 MB
+**Размер:** 81.51 MB
 
 **Основная ссылка (GitHub Raw):**
 `https://github.com/LinTV-OFFICAL/epg_liniptv/raw/main/data/EPG.xml.gz`
@@ -36,7 +36,7 @@
 ---
 ### 2. IPTVX.ONE | полный (архив на 7 дней)
 
-**Размер:** 86.42 MB
+**Размер:** 81.51 MB
 
 **Основная ссылка (GitHub Raw):**
 `https://github.com/LinTV-OFFICAL/epg_liniptv/raw/main/data/EPG7.xml.gz`
@@ -54,7 +54,7 @@
 ---
 ### 3. IPTVX.ONE | без описаний
 
-**Размер:** 17.41 MB
+**Размер:** 16.4 MB
 
 **Основная ссылка (GitHub Raw):**
 `https://github.com/LinTV-OFFICAL/epg_liniptv/raw/main/data/EPG_LITE.xml.gz`
@@ -73,7 +73,7 @@
 ---
 ### 4. IPTVX.ONE | только на текущую неделю
 
-**Размер:** 42.49 MB
+**Размер:** 47.38 MB
 
 **Основная ссылка (GitHub Raw):**
 `https://github.com/LinTV-OFFICAL/epg_liniptv/raw/main/data/EPG_NOARCH.xml.gz`
@@ -91,7 +91,7 @@
 ---
 ### 5. IPTVX.ONE | для тех, у кого не отображается спецсимвол ⋗ - в этом файле он заменен на LIVE! (архив - 3 дня и программа на 3 дня вперёд)
 
-**Размер:** 21.62 MB
+**Размер:** 22.14 MB
 
 **Основная ссылка (GitHub Raw):**
 `https://github.com/LinTV-OFFICAL/epg_liniptv/raw/main/data/EPG3.xml.gz`
@@ -111,26 +111,50 @@
 
 **Статус:** 🔴 Ошибка
 **Источник:** `https://iptvx.one/epg/epg2d.xmltv`
-**Причина:** Файл слишком большой (113.26 MB > 100 MB). Пропускаем.
+**Причина:** Файл слишком большой (114.63 MB > 100 MB). Пропускаем.
 
 ---
 ### 7. TELEGUIDE.INFO | на текущую неделю
 
-**Статус:** 🔴 Ошибка
-**Источник:** `https://teleguide.info/download/new3/xmltv.xml.gz`
-**Причина:** Ошибка загрузки: ('Connection broken: IncompleteRead(34752 bytes read, 4493942 more expected)', IncompleteRead(34752 bytes read, 4493942 more expected))
+**Размер:** 4.32 MB
+
+**Основная ссылка (GitHub Raw):**
+`https://github.com/LinTV-OFFICAL/epg_liniptv/raw/main/data/xmltv.xml.gz`
+
+**Основная ссылка (epg.liniptv.2bd.net):**
+`https://epg.liniptv.2bd.net/data/xmltv.xml.gz`
+
+**Сокращенная ссылка может неработать (clk.li):**
+`https://clk.li/LinIPTV-xmltv.xml.gz`
+
+> **Альтернативные ссылки:**
+>
+> - *Короткая (некоторые плееры не поддерживают):* `https://is.gd/dX6D6x`
+> - *CDN (jsDelivr):* `https://cdn.jsdelivr.net/gh/LinTV-OFFICAL/epg_liniptv@main/data/xmltv.xml.gz` (Короткая (некоторые плееры не поддерживают): `https://is.gd/VB5jCs`)
 
 ---
 ### 8. TELEGUIDE.INFO | на предыдущую неделю
 
-**Статус:** 🔴 Ошибка
-**Источник:** `https://teleguide.info/download/old/xmltv.xml.gz`
-**Причина:** Ошибка загрузки: ('Connection broken: IncompleteRead(34752 bytes read, 4594903 more expected)', IncompleteRead(34752 bytes read, 4594903 more expected))
+**Размер:** 4.42 MB
+
+**Основная ссылка (GitHub Raw):**
+`https://github.com/LinTV-OFFICAL/epg_liniptv/raw/main/data/xmltv.xml-1.gz`
+
+**Основная ссылка (epg.liniptv.2bd.net):**
+`https://epg.liniptv.2bd.net/data/xmltv.xml-1.gz`
+
+**Сокращенная ссылка может неработать (clk.li):**
+`https://clk.li/LinIPTV-xmltv.xml-1.gz`
+
+> **Альтернативные ссылки:**
+>
+> - *Короткая (некоторые плееры не поддерживают):* `https://is.gd/WQpKWj`
+> - *CDN (jsDelivr):* `https://cdn.jsdelivr.net/gh/LinTV-OFFICAL/epg_liniptv@main/data/xmltv.xml-1.gz` (Короткая (некоторые плееры не поддерживают): `https://is.gd/kweQAl`)
 
 ---
 ### 9. EPG.ONE | EPG с прямоугольными пиконами с прозрачным фоном (все каналы)
 
-**Размер:** 45.01 MB
+**Размер:** 43.87 MB
 
 **Основная ссылка (GitHub Raw):**
 `https://github.com/LinTV-OFFICAL/epg_liniptv/raw/main/data/epg2.xml.gz`
@@ -148,7 +172,7 @@
 ---
 ### 10. EPG.ONE | EPG с квадратными пиконами с темным фоном (все каналы)
 
-**Размер:** 45.01 MB
+**Размер:** 43.87 MB
 
 **Основная ссылка (GitHub Raw):**
 `https://github.com/LinTV-OFFICAL/epg_liniptv/raw/main/data/epg.xml.gz`
@@ -166,7 +190,7 @@
 ---
 ### 11. EPG.ONE | спецсборка EPG для Perfect Player и ProgTV (все каналы)
 
-**Размер:** 38.6 MB
+**Размер:** 38.61 MB
 
 **Основная ссылка (GitHub Raw):**
 `https://github.com/LinTV-OFFICAL/epg_liniptv/raw/main/data/pp.xml.gz`
@@ -184,7 +208,7 @@
 ---
 ### 12. EPG.ONE | упрощенный EPG с прямоугольными иконками с прозрачным фоном (все каналы)
 
-**Размер:** 10.17 MB
+**Размер:** 10.21 MB
 
 **Основная ссылка (GitHub Raw):**
 `https://github.com/LinTV-OFFICAL/epg_liniptv/raw/main/data/epg2.xml`
@@ -203,7 +227,7 @@
 ---
 ### 13. EPG.ONE | упрощенный EPG с квадратными иконками с темным фоном (все каналы)
 
-**Размер:** 10.17 MB
+**Размер:** 10.21 MB
 
 **Основная ссылка (GitHub Raw):**
 `https://github.com/LinTV-OFFICAL/epg_liniptv/raw/main/data/epg.xml`
@@ -222,7 +246,7 @@
 ---
 ### 14. EPG.ONE | упрощенный EPG с квадратными иконками с темным фоном (русские каналы)
 
-**Размер:** 22.43 MB
+**Размер:** 21.76 MB
 
 **Основная ссылка (GitHub Raw):**
 `https://github.com/LinTV-OFFICAL/epg_liniptv/raw/main/data/ru2.xml.gz`
@@ -240,7 +264,7 @@
 ---
 ### 15. EPG.ONE | EPG с квадратными пиконами с темным фоном (русские каналы)
 
-**Размер:** 22.43 MB
+**Размер:** 21.76 MB
 
 **Основная ссылка (GitHub Raw):**
 `https://github.com/LinTV-OFFICAL/epg_liniptv/raw/main/data/ru.xml.gz`
@@ -258,7 +282,7 @@
 ---
 ### 16. EPG.ONE | спецсборка EPG для Perfect Player и ProgTV (русские каналы)
 
-**Размер:** 41.88 MB
+**Размер:** 40.56 MB
 
 **Основная ссылка (GitHub Raw):**
 `https://github.com/LinTV-OFFICAL/epg_liniptv/raw/main/data/rupp.xml.gz`
