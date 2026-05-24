@@ -25,14 +25,6 @@
       "desc": "IPTVX.ONE | несжатый файл только на сегодня и завтра"
     },
     {
-      "url": "https://teleguide.info/download/new3/xmltv.xml.gz",
-      "desc": "TELEGUIDE.INFO | на текущую неделю"
-    },
-    {
-      "url": "https://teleguide.info/download/old/xmltv.xml.gz",
-      "desc": "TELEGUIDE.INFO | на предыдущую неделю"
-    },
-    {
       "url": "http://epg.one/epg2.xml.gz",
       "desc": "EPG.ONE | EPG с прямоугольными пиконами с прозрачным фоном (все каналы)"
     },
